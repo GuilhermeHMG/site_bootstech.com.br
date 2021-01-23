@@ -1,0 +1,17 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    width: 100%;                        /*Terá LARGURA de 100%*/
+    background-color: transparent;      /*Colocando um FUNDO transparente*/
+    transition: background .2s;         /*Transição do fundo de 2 segundos*/
+}
+
+#header .navbar-collapse {
+    width: auto;                        /*Pegando a navbar que está em100% da página e colocando a largura dela em AUTOMÁTICA*/
+}
+
+#header .nav-link {                     /*Dando ESTILO para cada item do menu da navbar (Página inicial, Sobre, Serviços, Portfólio, Contato)*/
+    text-transform: uppercase;
+}
