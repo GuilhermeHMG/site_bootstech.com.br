@@ -14,4 +14,10 @@ body, html {
 
 #header .nav-link {                     /*Dando ESTILO para cada item do menu da navbar (Página inicial, Sobre, Serviços, Portfólio, Contato)*/
     text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;                    /*Terá um PREENCHIMENTO para a ESQUERDA*/
+    padding-right: 0;                   /*Terá um PREENCHIMENTO para a DIREITA*/
+    margin-left: 15px;                  /*Terá uma MARGEM de 15 pixels entre as palavras do menu para a ESQUERDA*/
+    margin-right: 15px;                  /*Terá uma MARGEM de 15 pixels entre as palavras do menu para a DIREITA*/
+    color: #000000;                   /*A cor das letras do menu de navegação será PRETA*/
 }
