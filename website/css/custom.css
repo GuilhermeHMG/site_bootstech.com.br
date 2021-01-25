@@ -18,6 +18,13 @@ body, html {
     padding-left: 0;                    /*Terá um PREENCHIMENTO para a ESQUERDA*/
     padding-right: 0;                   /*Terá um PREENCHIMENTO para a DIREITA*/
     margin-left: 15px;                  /*Terá uma MARGEM de 15 pixels entre as palavras do menu para a ESQUERDA*/
-    margin-right: 15px;                  /*Terá uma MARGEM de 15 pixels entre as palavras do menu para a DIREITA*/
+    margin-right: 15px;                 /*Terá uma MARGEM de 15 pixels entre as palavras do menu para a DIREITA*/
     color: #000000;                   /*A cor das letras do menu de navegação será PRETA*/
+    border-bottom: solid 4px transparent; /*Aqui estamos colando uma borda embaixo das palavras (links) da barra de navegação para ela não ficar "pulando as palavras" quando passarmos o mouse em cima"*/
+}
+
+#header .nav-link:hover {                /*o Hover dá o efeito de quando passamos o cursor do mouse em cima*/ 
+    border-bottom: solid 4px var(--primary); /*Eu não quero toda vez ter que escrever a cor que quero usar no projeto, exemplo "#000000", então eu vou criar um arquivo de configuração dessas cores, em config.css ... Vou criar uma variável para cada cor, neste caso, usarei o var para pegar a cor "preto (--primary)"*/
+    color: var(--secondary);                 /*Aqui estamos colocando a cor das palavras (links) da navegação em AZUL (--secondary) quando o mouse passa em cima*/
+
 }
