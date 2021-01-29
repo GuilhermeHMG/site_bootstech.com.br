@@ -28,3 +28,8 @@ body, html {
     color: var(--secondary);                 /*Aqui estamos colocando a cor das palavras (links) da navegação em AZUL (--secondary) quando o mouse passa em cima*/
 
 }
+
+#slider {
+    background: url(../assets/slider-bg.png) no-repeat center bottom;
+    background-size:contain;
+}
