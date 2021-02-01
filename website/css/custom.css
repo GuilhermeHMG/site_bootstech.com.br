@@ -25,7 +25,7 @@ body, html {
 
 #header .nav-link:hover {                /*o Hover dá o efeito de quando passamos o cursor do mouse em cima*/ 
     border-bottom: solid 4px var(--primary); /*Eu não quero toda vez ter que escrever a cor que quero usar no projeto, exemplo "#000000", então eu vou criar um arquivo de configuração dessas cores, em config.css ... Vou criar uma variável para cada cor, neste caso, usarei o var para pegar a cor "preto (--primary)"*/
-    color: var(--secondary);                 /*Aqui estamos colocando a cor das palavras (links) da navegação em AZUL (--secondary) quando o mouse passa em cima*/
+    color: var(--primary);                 /*Aqui estamos colocando a cor das palavras (links) da navegação em AZUL (--secondary) quando o mouse passa em cima*/
 
 }
 
