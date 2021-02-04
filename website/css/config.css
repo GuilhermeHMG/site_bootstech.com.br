@@ -1,6 +1,10 @@
+/*CRIANDO AS PALHETAS DE CORES*/
+
 :root {
     --primary: #3366ff;
     --primary-dark: #002080;
     --secondary: #000000;
-    ;
+    --light: #f0f0f0;
+    --medium: #cacaca;
+    --dark: #a2a2a2;
 }
