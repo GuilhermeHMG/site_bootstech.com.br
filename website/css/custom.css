@@ -44,3 +44,21 @@ body, html {
     text-transform: uppercase;
     font-weight: 900;
 }
+
+/*Rodapé*/
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--secondary);
+    color: #FFFFFF;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+footer p{
+    font-size: 10px;
+}
